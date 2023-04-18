@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WeatherMe</title>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <style>
+    #example { 
+      height: 700px;
+      width: 600px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <h2>WeatherMe</h2>
+      
+    <div id="map"></div>
+
+    <form id="weather-form">
+      <input type="text" id="location" name="location" placeholder="Enter city or zip code" />
+      <button type="submit" class='button'>Get Weather</button>
+    </form>
+  
+    <div id="example"></div>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+
+  <div id="resultBox"></div>
+
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>
+
+
